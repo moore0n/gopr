@@ -1,17 +1,17 @@
-[![Tag](https://img.shields.io/github/v/tag/moore0n/pr?sort=date)](https://github.com/moore0n/pr/releases)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/moore0n/pr)](https://golang.org/dl/)
-[![GitHub stars](https://img.shields.io/github/stars/moore0n/pr?style=social)](https://github.com/moore0n/pr/stargazers)
+[![Tag](https://img.shields.io/github/v/tag/moore0n/gopr?sort=date)](https://github.com/moore0n/gopr/releases)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/moore0n/gopr)](https://golang.org/dl/)
+[![GitHub stars](https://img.shields.io/github/stars/moore0n/gopr?style=social)](https://github.com/moore0n/gopr/stargazers)
 
-# pr
-pr is a simple CLI tool for opening the pull request url for github.com based on the current branch.
+# gopr
+gopr is a simple CLI tool for opening the pull request url for github.com based on the current branch.
 
 # Usage
 ```
 NAME:
-   pr - Open the link for creating a pull request in Github
+   gopr - Open the link for creating a pull request in Github
 
 USAGE:
-   pr [options...] <target>
+   gopr [options...] <target>
 
 VERSION:
    1.0.0
@@ -29,13 +29,13 @@ GLOBAL OPTIONS:
 
 ## Install 
 ```
-go get -u github.com/moore0n/pr
-go install github.com/moore0n/pr/...
+go get -u github.com/moore0n/gopr
+go install github.com/moore0n/gopr/...
 ```
 
 ## Try
 ```
-pr --title "New Feature" --body "This PR introduces a new feature" --remote origin master
+gopr --title "New Feature" --body "This PR introduces a new feature" --remote origin master
 ```
 
 ## Build
