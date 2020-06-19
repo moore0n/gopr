@@ -64,7 +64,7 @@ func action(c *cli.Context) error {
 	branch := getCurrentBranch()
 
 	// Compile the base template url without query params
-	targetURL := fmt.Sprintf(prtemplate, remoteURL, "master", branch)
+	targetURL := fmt.Sprintf(prtemplate, remoteURL, targetBranch, branch)
 
 	// Start building the query params.
 	vals := url.Values{}
