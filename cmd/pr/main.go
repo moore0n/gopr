@@ -15,12 +15,12 @@ const prtemplate = "https://%s/compare/%s...%s"
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "pr"
+	app.Name = "gopr"
 	app.Version = "1.0.0"
 
 	app.Usage = "Open the link for creating a pull request in Github"
 
-	app.UsageText = "pr [options...] <target>"
+	app.UsageText = "gopr [options...] <target>"
 
 	app.Flags = []cli.Flag{
 		&cli.StringFlag{

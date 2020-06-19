@@ -1,4 +1,4 @@
-module github.com/moore0n/pr
+module github.com/moore0n/gopr
 
 go 1.13
 
